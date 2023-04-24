@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 // Define an async function to establish a connection to a MongoDB database cluster.
 async function main(){
-    await mongoose.connect('mongodb+srv://debajyotishit3:Deba16@cluster0.fxnuinl.mongodb.net/?retryWrites=true&w=majority');
+    await mongoose.connect('mongodb+srv://rkchy23:<password>@cluster0.wnkgjxk.mongodb.net/test');
     console.log("connection Successfull !! ");
 }
 
